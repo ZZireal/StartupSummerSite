@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    src: url(../fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    src: url(../fonts/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+.body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.main {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    margin: 0 0 0 0;
+    height: 100%;
+    width: 29%;
+    overflow: hidden;
+}
+
+.nav-logo {
+    margin: 3vw 10vw 0 10vw;
+}
+
+.nav-logo-icon {
+    width: 7vw;
+    height: 7vw;
+}
+
+.nav-logo-caption {
+    white-space: nowrap;
+    font-size: 1.5vw;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.nav-menu {
+    margin: 10vw 10vw 0 10vw;
+    /*переменная, потом поменять в других местах*/
+    --c: 1.5vw;
+    font-size: var(--c);
+}
+
+.nav-menu-item {
+    display: flex;
+    align-items: center;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    color: #B9B9B9;
+    text-decoration: none;
+    margin: 2vw 0 2vw 0;
+}
+
+#nav-menu-item-active,
+#nav-menu-item-icon-active {
+    color: #FF3C5A;
+    stroke: #FF3C5A;
+}
+
+.nav-menu-item-icon-passive {
+    stroke: #B9B9B9;
+}
+
+.section {
+    padding: 5vw 5vw 5vw 5vw;
+    background-color: #EDEDED;
+    border-radius: 50px;
+    margin: 7vw 3vw 3vw 3vw;
+    flex-grow: 1;
+    overflow: auto;
+    height: calc(100% -3vh);
+}

@@ -1,0 +1,28 @@
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-capture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: #333333;
+}
+
+.section-capture-hello {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.section-capture-task {
+    font-size: 1.6vw;
+}
+
+.section-rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
