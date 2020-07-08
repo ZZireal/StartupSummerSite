@@ -43,7 +43,7 @@
 }
 
 .nav-logo {
-    margin: 3vw 10vw 0 10vw;
+    margin: 3vw 10vw 0 6vw;
 }
 
 .nav-logo-icon {
@@ -59,8 +59,8 @@
 }
 
 .nav-menu {
-    margin: 10vw 10vw 0 10vw;
-    /*переменная, потом поменять в других местах*/
+    margin: 12vw 0 0 8vw;
+    /*переменная, почитать попробовать*/
     --c: 1.5vw;
     font-size: var(--c);
 }
