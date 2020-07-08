@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.section-capture {
+.section-caption {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,12 +12,12 @@
     color: #333333;
 }
 
-.section-capture-hello {
+.section-caption-hello {
     font-size: 3vw;
     font-weight: bold;
 }
 
-.section-capture-task {
+.section-caption-task {
     font-size: 1.6vw;
 }
 
@@ -27,12 +27,12 @@
     display: flex;
 }
 
-.section-row-capture {
+.section-row-caption {
     font-family: Source Sans Pro;
     margin: 1vw 0 1vw 0;
 }
 
-.section-row-capture-bold-pink {
+.section-row-caption-bold-pink {
     font-weight: bold;
     color: #FF3C5A;
 }

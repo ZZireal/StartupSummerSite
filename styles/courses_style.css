@@ -1,4 +1,4 @@
-.section-capture {
+.section-caption {
     font-family: Source Sans Pro;
     font-weight: bold;
     font-size: 3vw;
@@ -44,4 +44,5 @@
 
 .section-content-rectangle:hover .section-content-rectangle-icon {
     fill: #FF3C5A;
+    transition: 0.5s;
 }
