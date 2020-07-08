@@ -22,7 +22,8 @@
 }
 
 .section-rows {
-    display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
