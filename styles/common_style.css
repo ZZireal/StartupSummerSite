@@ -47,22 +47,20 @@
 }
 
 .nav-logo-icon {
-    width: 7vw;
-    height: 7vw;
+    width: 180px;
+    height: auto;
 }
 
 .nav-logo-caption {
     white-space: nowrap;
-    font-size: 1.5vw;
+    font-size: 25px;
     font-family: Roboto;
     font-weight: bold;
 }
 
 .nav-menu {
     margin: 12vw 0 0 8vw;
-    /*переменная, почитать попробовать*/
-    --c: 1.5vw;
-    font-size: var(--c);
+    font-size: 25px;
 }
 
 .nav-menu-item {
@@ -86,10 +84,10 @@
 }
 
 .section {
-    padding: 5vw 5vw 5vw 5vw;
+    padding: 5vw 3vw 5vw 5vw;
     background-color: #EDEDED;
     border-radius: 50px;
-    margin: 7vw 3vw 3vw 3vw;
+    margin: 3vw 3vw 3vw 3vw;
     flex-grow: 1;
     overflow: auto;
     height: calc(100% -3vh);
