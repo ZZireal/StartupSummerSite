@@ -1,16 +1,16 @@
-.section-caption {
+.section__header_caption {
     font-family: Source Sans Pro;
     font-weight: bold;
     font-size: 3vw;
 }
 
-.section-content {
+.section_rectangles-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
     grid-row-gap: 1.4vw;
 }
 
-.section-content-rectangle {
+.section_rectangles-grid_rectangle {
     width: 175px;
     height: 175px;
     background-color: white;
@@ -18,18 +18,18 @@
     border-radius: 6px;
 }
 
-.section-content-rectangle-link {
+.section_rectangles-grid_rectangle_link {
     color: #333333;
     text-decoration: none;
 }
 
-.section-content-rectangle-icon {
+.section_rectangles-grid_rectangle_icon {
     fill: #B9B9B9;
     width: 175px;
     height: 175px;
 }
 
-.section-content-rectangle-name {
+.section_rectangles-grid_rectangle_name {
     position: relative;
     bottom: 3rem;
     left: 1.2rem;
@@ -38,11 +38,11 @@
     font-size: 1.2rem;
 }
 
-.section-content-rectangle:hover {
+.section_rectangles-grid_rectangle:hover {
     box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.25);
 }
 
-.section-content-rectangle:hover .section-content-rectangle-icon {
+.section_rectangles-grid_rectangle:hover .section_rectangles-grid_rectangle_icon {
     fill: #FF3C5A;
     transition: 0.5s;
 }
